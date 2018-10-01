@@ -1,0 +1,13 @@
+.navbar{
+    padding-bottom: 0px;
+}
+
+.bg{
+    position: relative;
+    background-image: url("images/batiment.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-top: 500px;
+    background-position: center; 
+}
