@@ -1,5 +1,7 @@
 .navbar{
     padding-bottom: 0px;
+    position: relative;
+    
 }
 
 .bg{
@@ -10,4 +12,14 @@
     width: 100%;
     padding-top: 500px;
     background-position: center; 
+}
+
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content{
+    background-color:#F3F3F3;
 }
