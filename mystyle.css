@@ -52,22 +52,18 @@
 
 #img-batiment{
     display: block;
-    padding-top: 15px; 
-    width: 70%;
+    width: 100%;
+     max-height: 100%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-
-.second-header{
-    background-color: #77649B !important; 
-    height: 20%;
-}
-
+/*
 .content{
     background-color:#F3F3F3;
 }
-
+*/
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
@@ -76,13 +72,22 @@
     color: #fdce37;
 }
 
-.epsicontent {
+/*.epsicontent {
     background-color: #efeef3;
     color: #271549;
     max-width: 1140px;
 }
-
+*/
 .epsititlebg {
     background-color: #77649b;
-    color: #271549;
+    color: white;
+    padding: 27px 12px 25px;
+}
+
+body{
+    background-color: #EFEEF3;
+}
+
+.content{
+    background-color: #FFF;
 }
