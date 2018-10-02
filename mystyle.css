@@ -1,7 +1,53 @@
 .navbar{
-    padding-bottom: 0px;
+    padding-bottom: 2em;
+    padding-top: 2em;
     position: relative;
-    
+    background-color: #271549;
+}
+.navbar .navbar-nav > li > a:hover, .navbar-light .navbar-nav > li > a:focus {
+    background-color: #756490;
+    color: #271549;
+}
+
+.navbar-brand {
+    color: #FFF;
+    font-size: 35px;
+    margin-left: 1.5em;
+    margin-right: 2em;
+}
+
+.navbar-brand a:hover {
+    color: #FFF;
+}
+
+#navbarbrand {
+    color: #FFF;
+}
+
+.nav-item {
+    background-color: #FFF;
+    color: #756490;
+    border-right: 1px solid #f0eff2;
+    border-color: rgba(66,66,66,0.2);
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.nav-link {
+    color: #382660;
+    opacity: 1;
+    font-family: Source Sans Pro, sans-serif;
+    transition: all .5s ease;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 550;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #img-batiment{
@@ -26,4 +72,17 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+.epsilink {
+    color: #fdce37;
+}
 
+.epsicontent {
+    background-color: #efeef3;
+    color: #271549;
+    max-width: 1140px;
+}
+
+.epsititlebg {
+    background-color: #77649b;
+    color: #271549;
+}
