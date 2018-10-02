@@ -13,9 +13,9 @@
 }
 
 
-h2{
-    margin-top: 10px;
-    text-align: center;
+.second-header{
+    background-color: #77649B !important; 
+    height: 20%;
 }
 
 .content{
@@ -26,3 +26,4 @@ h2{
     padding: 0 !important;
     margin: 0 !important;
 }
+
