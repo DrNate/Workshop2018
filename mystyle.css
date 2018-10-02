@@ -23,3 +23,8 @@ h2{
 .content{
     background-color:#F3F3F3;
 }
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
