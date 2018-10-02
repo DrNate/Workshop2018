@@ -1,6 +1,10 @@
 .navbar{
+<<<<<<< HEAD
     padding-bottom: 2em;
     padding-top: 2em;
+=======
+    padding-bottom: 0;
+>>>>>>> c2892157830d4858ee16ff3e7d5aa677777a76e8
     position: relative;
     background-color: #271549;
 }
@@ -50,14 +54,12 @@
     justify-content: center;
 }
 
-.bg{
-    position: relative;
-    background-image: url("images/batiment.jpg");
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    padding-top: 500px;
-    background-position: center; 
+#img-batiment{
+    display: block;
+    padding-top: 15px; 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -68,4 +70,23 @@ h2{
 
 .content{
     background-color:#F3F3F3;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.epsilink {
+    color: #fdce37;
+}
+
+.epsicontent {
+    background-color: #efeef3;
+    color: #271549;
+    max-width: 1140px;
+}
+
+.epsititlebg {
+    background-color: #77649b;
+    color: #271549;
 }
