@@ -29,25 +29,29 @@
     color: #756490;
     border-right: 1px solid #f0eff2;
     border-color: rgba(66,66,66,0.2);
-    padding-right: 2em;
-    padding-left: 2em;
 }
 
-.nav-link {
+.navbar .navbar-nav > li > a {
     color: #382660;
     opacity: 1;
     font-family: Source Sans Pro, sans-serif;
     transition: all .5s ease;
     font-size: 14px;
     line-height: 20px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
     text-transform: uppercase;
-    padding-top: 1em;
-    padding-bottom: 1em;
     font-weight: 550;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+#last-nav-item {
+    border-right: 0px !important;
 }
 
 #img-batiment{
