@@ -28,3 +28,18 @@ h2{
     padding: 0 !important;
     margin: 0 !important;
 }
+
+.epsilink {
+    color: #fdce37;
+}
+
+.epsicontent {
+    background-color: #efeef3;
+    color: #271549;
+    max-width: 1140px;
+}
+
+.epsititlebg {
+    background-color: #77649b;
+    color: #271549;
+}
