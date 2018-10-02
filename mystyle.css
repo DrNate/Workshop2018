@@ -1,0 +1,25 @@
+.navbar{
+    padding-bottom: 0px;
+    position: relative;
+    
+}
+
+.bg{
+    position: relative;
+    background-image: url("images/batiment.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-top: 500px;
+    background-position: center; 
+}
+
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content{
+    background-color:#F3F3F3;
+}
