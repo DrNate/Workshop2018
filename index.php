@@ -18,6 +18,7 @@
 <?php
 include ('navbar.html')
 ?>
+
 <div class="epsititlebg">
     <h2>Bienvenue à L'EPSI</h2>
 </div>

@@ -90,7 +90,7 @@ include ('navbar.html')
         }
     </script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=Key&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSad8hl9WTJIpdzGQbCXmrzBWKPBfL8Yw&callback=initMap">
     </script>
 <br>
 <iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
