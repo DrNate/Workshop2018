@@ -1,0 +1,20 @@
+{
+  "question1": {
+    "text": "Question ?",
+    "r1": "rep1",
+    "r2": "rep2",
+    "r3": "rep3"
+  },
+  "question2": {
+    "text": "Question 2 ?",
+    "r1": "rep1",
+    "r2": "rep2",
+    "r3": "rep3"
+  },
+  "question3": {
+    "text": "Question 3 ?",
+    "r1": "rep1",
+    "r2": "rep2",
+    "r3": "rep3"
+  }
+}
