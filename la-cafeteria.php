@@ -27,7 +27,7 @@ include ('navbar.html')
 
 <div class="container">
       
-      <p>Ouverte toute la journée, cet espace vous permettra de communiquer avec les étudiants des
+      <p>Ouvert toute la journée, cet espace vous permettra de communiquer avec les étudiants des
       autres écoles autour d'un café et d'un petit encas.<br>C'est ici aussi que vous pourrez faire des parties de Babyfoot
       ou manger votre casse-croûte du midi.</p>
 </div>
