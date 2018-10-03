@@ -16,7 +16,7 @@
 
 <body>
 <?php
-include ('navbar.html')
+include 'navbar.html'
 ?>
 
   <img id="img-batiment" src="images/batiment.jpg" class="img-fluid" alt="Responsive image">

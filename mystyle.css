@@ -104,3 +104,28 @@ body{
 .content{
     background-color: #FFF;
 }
+
+footer #footer-top {
+
+    background-color: #77649b;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.inner {
+    width: calc(100% - 50px);
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer #footer-bottom {
+
+    background-color: #271549;
+    background-image: url(http://www.epsi.fr/wp-content/themes/object23/assets/img/motifs-haut-gauche.png),url(http://www.epsi.fr/wp-content/themes/object23/assets/img/motifs-bas-droite.png);
+    background-repeat: no-repeat;
+    background-position: top left,right bottom;
+    padding: 50px 0;
+    color: #fff;
+}
