@@ -27,12 +27,12 @@ include ('navbar.html')
     <h2 class="mt-3 text-center">Bienvenue au Campus de Grenoble</h2>
 
     <h3>Les locaux</h3>
-    <p>Le campus est composé de deux batiments. Ces batiments comportents des salles de cours, une caféteria ainsi
+    <p>Le campus est composé de deux bâtiments. Ces bâtiments comportent des salles de cours, une caféteria ainsi
       qu'un labo.</p>
     <h4>Heures d'ouverture</h4>
-    <p>Les locaux du campus sont ouvert du Lundi au Vendredi de 7h30 à 18h</p>
+    <p>Les locaux du campus sont ouverts du Lundi au Vendredi de 7h30 à 18h</p>
     <h3>Les écoles</h3>
-    <p>Le campus est composer de trois écoles:
+    <p>Le campus comprend trois écoles:
       <ul>
         <li>L'EPSI</li>
         <li>L'IDRAC</li>

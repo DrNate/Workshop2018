@@ -49,5 +49,26 @@
     "text": "Question 6 ?",
     "type": "noqcm",
     "ans": "reponse6"
+  },
+  "7": {
+    "text": "Question 7 ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep71",
+      "1": "rep72",
+      "2": "rep73",
+      "4": "rep74"
+    }
+  },
+  "8": {
+    "text": "Question 8 ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep81",
+      "1": "rep82",
+      "2": "rep83",
+      "4": "rep84",
+      "5": "rep85"
+    }
   }
 }
