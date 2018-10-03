@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>La cafeteria</title>
+    <title>EPSI | Campus Grenoble</title>
 </head>
 
 <body>
