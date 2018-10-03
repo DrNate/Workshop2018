@@ -9,7 +9,9 @@
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
-
+<?php
+include ('navbar.html')
+?>
 <div class="content">
     <div class="row epsititlebg nopadding">
         <div class="col-sm-3"></div>
