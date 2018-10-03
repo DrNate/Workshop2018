@@ -23,3 +23,15 @@
 <?php
 include ('navbar.html')
 ?>
+
+<div class="epsititlebg">
+    <h2>La cafétéria</h2>
+</div>
+
+<div class="container">
+      <img id="img-cafetera" src="images/cafeteria.jpg">
+      <p>Ouverte toute la journée, cette espace vous permettra de communiquer avec les étudiants des
+      autres écoles autour d'un café et d'un petit encas.<br>C'est ici aussi que vous pourrez faire des parties de Babifoot 
+      ou manger votre casse croute du midi.</p>
+</div>
+</body>
