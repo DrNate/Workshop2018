@@ -30,7 +30,6 @@ include ('navbar.html')
       qu'un labo.</p>
     <h4>Heures d'ouverture</h4>
     <p>Les locaux du campus sont ouvert du Lundi au Vendredi de 7h30 à 18h</p>
-    <h4>La cafétéria</h4>
     <h3>Les écoles</h3>
     <p>Le campus est composer de trois écoles:
       <ul>

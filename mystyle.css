@@ -63,13 +63,12 @@
 
 }
 
-#img-cafetera{
-    display: block;
-    width: 75%;
-     max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
+.img-hautpage{
+    display: block !important;
+    width: 50% !important;
+    max-height: 100% !important;
+    margin-left: auto !important ;
+    margin-right: auto !important;
 }
 
 /*

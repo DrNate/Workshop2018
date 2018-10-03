@@ -43,10 +43,12 @@ include ('navbar.html')
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=Key&callback=initMap">
     </script>
-
-    <iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
+<br>
+<iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
         style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
-        allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+        allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"></iframe>
+    
+</div>
 
     
     <!-- Optional JavaScript -->
