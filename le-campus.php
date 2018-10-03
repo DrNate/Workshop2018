@@ -20,37 +20,9 @@
 </head>
 
 <body>
-  <nav class="navbar  navbar-expand-lg justify-content-center">
-    <a id="navbarbrand" class="navbar-brand" href="index.html">
-      <img src="Images/logo-epsi-whitetext.png" width="120" height="80" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="epsi.index.html">Le Campus</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="idrac.index.html">La cafétéria</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sup.index.html">Le Labo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="la-ville.html">La ville</a>
-        </li>
-        <li class="nav-item" id="last-nav-item">
-          <a class="nav-link" href="#">Le Quizz</a>
-        </li>
-        <li class="nav-item" id="last-nav-item">
-          <a class="nav-link" href="#">Nous contacter</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<?php
+include ('navbar.html')
+?>
 
   <img id="img-batiment" src="images/batiment.jpg" class="img-fluid" alt="Responsive image">
 
@@ -59,7 +31,7 @@
     <h2 class="mt-3 text-center">Bienvenue au Campus de Grenoble</h2>
 
     <h3>Les locaux</h3>
-    <p>Le campus est composer de deux batiments. Ces batiments comportents des salles de cours, une caféteria ainsi
+    <p>Le campus est composé de deux batiments. Ces batiments comportents des salles de cours, une caféteria ainsi
       qu'un labo.</p>
     <h4>Heures d'ouverture</h4>
     <p>Les locaux du campus sont ouvert du Lundi au Vendredi de 7h30 à 18h</p>
