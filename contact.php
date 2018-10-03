@@ -29,7 +29,7 @@ include 'navbar.html'
 </div>
 
 <div id="container-form" class="container border border-primary rounded mt-3">
-    <p>N'hésiter pas à nous envoyer vos questions en remplissent ce formulaire.</p>
+    <p>N'hésitez pas à nous envoyer vos questions en remplissant ce formulaire.</p>
     <form>
         <div class="form-group">
             <label for="inputnom">Nom</label>
