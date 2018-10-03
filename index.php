@@ -16,7 +16,7 @@
 
 <body>
 <?php
-include ('navbar.html')
+include 'navbar.html'
 ?>
 
 <div class="epsititlebg">

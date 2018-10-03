@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/png" href="images/logo.PNG" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +16,7 @@
 </head>
 <body>
 <?php
-include ('navbar.html')
+include 'navbar.html'
 ?>
 <div class="container content">
     <style>
@@ -30,7 +31,7 @@ include ('navbar.html')
     <script>
         function initMap() {
             var sContent = 'Campus EPSI';
-            var sContent2 = 
+            var sContent2 =
             "<p style='float:left'>Tramway ligne <img src='tramB.png' alt='tramB' height='30' width='30'></p>"+
             "<br />"+
             "<p style='float:left'>Tramway ligne <img src='tramC.png' alt='tramC' height='30' width='30'></p>"+
@@ -51,7 +52,7 @@ include ('navbar.html')
             var centrerPoint = {lat: 45.188209, lng: 5.776405};
             var map = new google.maps.Map(
                 document.getElementById('map'), {
-                    zoom: 15.5, 
+                    zoom: 15.5,
                     center: centrerPoint
                 });
 
@@ -59,16 +60,16 @@ include ('navbar.html')
             infowindow2 = new google.maps.InfoWindow({ content: sContent2 });
 
             var marker = new google.maps.Marker({
-                position: campus, 
-                map: map, 
-                title: titre, 
+                position: campus,
+                map: map,
+                title: titre,
                 info: sContent
             });
 
             var markerTram = new google.maps.Marker({
-                position: tram, 
+                position: tram,
                 map: map,
-                title: titre, 
+                title: titre,
                 info: sContent2
             });
 
@@ -96,10 +97,10 @@ include ('navbar.html')
 <iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
         style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"></iframe>
-    
+
 </div>
 
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
