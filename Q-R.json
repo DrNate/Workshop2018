@@ -1,9 +1,9 @@
 {
   "0": {
-    "text": "NoQuestion ?",
+    "text": "Qu'est ce qu'un routeur:",
     "type": "qcm",
     "ans": {
-      "0": "rep01",
+      "0": "Un équipement qui permet de se connecter à un réseau comme Internet",
       "1": "rep02",
       "2": "rep03"
     }
