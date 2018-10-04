@@ -5,7 +5,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="images/logo.PNG" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="styleEPSI.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,8 +17,9 @@
 
 <body>
 <?php
-include ('navbar.html')
+include 'navbar.html'
 ?>
+
 <div class="epsititlebg">
     <h2>Bienvenue à L'EPSI</h2>
 </div>
@@ -26,11 +28,11 @@ include ('navbar.html')
 
 <div class="container content">
 
-
-
-
-
 </div>
+
+<?php
+include 'footer.html'
+?>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

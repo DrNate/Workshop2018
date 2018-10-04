@@ -1,20 +1,74 @@
 {
-  "question1": {
-    "text": "Question ?",
-    "r1": "rep1",
-    "r2": "rep2",
-    "r3": "rep3"
+  "0": {
+    "text": "NoQuestion ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep01",
+      "1": "rep02",
+      "2": "rep03"
+    }
   },
-  "question2": {
+  "1": {
+    "text": "Question 1 ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep11",
+      "1": "rep12",
+      "2": "rep13"
+    }
+  },
+  "2": {
     "text": "Question 2 ?",
-    "r1": "rep1",
-    "r2": "rep2",
-    "r3": "rep3"
+    "type": "qcm",
+    "ans": {
+      "0": "rep21",
+      "1": "rep22",
+      "2": "rep23"
+    }
   },
-  "question3": {
+  "3": {
     "text": "Question 3 ?",
-    "r1": "rep1",
-    "r2": "rep2",
-    "r3": "rep3"
+    "type": "qcm",
+    "ans": {
+      "0": "rep31",
+      "1": "rep32",
+      "2": "rep33"
+    }
+  },
+  "4": {
+    "text": "Question 4 ?",
+    "type": "noqcm",
+    "ans": "reponse4"
+  },
+  "5": {
+    "text": "Question 5 ?",
+    "type": "noqcm",
+    "ans": "reponse5"
+  },
+  "6": {
+    "text": "Question 6 ?",
+    "type": "noqcm",
+    "ans": "reponse6"
+  },
+  "7": {
+    "text": "Question 7 ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep71",
+      "1": "rep72",
+      "2": "rep73",
+      "4": "rep74"
+    }
+  },
+  "8": {
+    "text": "Question 8 ?",
+    "type": "qcm",
+    "ans": {
+      "0": "rep81",
+      "1": "rep82",
+      "2": "rep83",
+      "4": "rep84",
+      "5": "rep85"
+    }
   }
 }
