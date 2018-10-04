@@ -145,7 +145,7 @@ function checkEnd() {
             $("#info").append('<p class="text-center">Vous n\'avez pas réussi à répondre juste à la plupart des questions, mais pas de soucis on peut vous apprendre !</p>');
             $("#info").addClass("alert-danger").removeClass("alert-sucess");
         }
-        $("#info").append('<p class="text-center"><a href="http://www.epsi.fr/admissions/integrer-lepsi/">Rejoignez nous ici !</a></p>')
+        $("#info").append('<p class="text-center"><a href="http://www.epsi.fr/candidature-2/candidature-grenoble/">Rejoignez nous ici !</a></p>')
     }
 }
 
