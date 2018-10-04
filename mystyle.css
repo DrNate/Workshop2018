@@ -124,8 +124,8 @@ p {
     padding-bottom: 10px !important;
 }
 
-@media (max-width: 1220px) {
-   #navbarNav {
+/*@media (max-width: 1220px) {
+   .navbar-collapse {
        display: none !important;
    }
 }
@@ -141,5 +141,4 @@ p {
         display: inline-block !important;
         margin: 0;
     }
-}
-
+}*/
