@@ -31,9 +31,9 @@ include ('navbar.html')
         function initMap() {
             var sContent = 'Campus EPSI';
             var sContent2 = 
-            "<p style='float:left'>Tramway ligne <img src='tramB.png' alt='tramB' height='30' width='30'></p>"+
+            "<p style='float:left'>Tramway ligne <img src='Images/tramB.png' alt='tramB' height='30' width='30'></p>"+
             "<br />"+
-            "<p style='float:left'>Tramway ligne <img src='tramC.png' alt='tramC' height='30' width='30'></p>"+
+            "<p style='float:left'>Tramway ligne <img src='Images/tramC.png' alt='tramC' height='30' width='30'></p>"+
             "<br />"+
             "<br />"+
             "<br />"+
@@ -42,7 +42,7 @@ include ('navbar.html')
             "<br />"+
             "<a href='https://www.tag.fr/' style='block'>Toutes les informations TAG</a>"
             ;
-
+            
             var titre = "Oui";
             var titreTram = "Arrêt de tram Condillac Université";
 
@@ -90,7 +90,7 @@ include ('navbar.html')
         }
     </script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=Key&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSad8hl9WTJIpdzGQbCXmrzBWKPBfL8Yw&callback=initMap">
     </script>
 <br>
 <iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
