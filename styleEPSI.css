@@ -1113,7 +1113,7 @@ img#slogan {
     margin-top: 4px;
     margin-left: -35px;
     opacity: 0;
-/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
     -webkit-transition: all .3s ease;
     transition: all .3s ease
 }

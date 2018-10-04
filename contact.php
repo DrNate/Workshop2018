@@ -28,7 +28,7 @@ include 'navbar.html'
     <h2>Nous contacter</h2>
 </div>
 
-<div id="container-form" class="container border border-primary rounded mt-3">
+<div id="container-form" class="container content ">
     <p>N'hésitez pas à nous envoyer vos questions en remplissant ce formulaire.</p>
     <form>
         <div class="form-group">
@@ -50,7 +50,7 @@ include 'navbar.html'
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
-
+<br>
 <?php
 include 'footer.html'
 ?>

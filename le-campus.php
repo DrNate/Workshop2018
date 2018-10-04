@@ -20,15 +20,29 @@
 include 'navbar.html'
 ?>
 
-  <img id="img-batiment" src="images/batiment.jpg" class="img-fluid" alt="Responsive image">
+<div class="epsititlebg">
+    <h2>Le Campus de Grenoble</h2>
+</div>
+
+  <img class="img-hautpage" src="images/batiment.jpg" class="img-fluid" alt="Responsive image">
 
   <div class="container content">
 
-    <h2 class="mt-3 text-center">Bienvenue au Campus de Grenoble</h2>
-
     <h3>Les locaux</h3>
-    <p>Le campus est composé de deux bâtiments. Ces bâtiments comportent des salles de cours, une caféteria ainsi
-      qu'un labo.</p>
+    <p>Le campus est composé de deux bâtiments. Ces bâtiments comportent
+      <ul>
+        <li>Des salles informatiques</li>
+        <li>De salles de TP réseaux</li>
+        <li>Des salles de cours</li>
+        <li>Une salle de conférence</li>
+        <li>Un système de visioconférence</li>
+        <li>Un espace restauration avec terrasse</li>
+        <li>Une caféteria</li>
+        <li>Des locaux associatifs (Labo expérimentale, BDE…)</li>
+        <li>Un Oculus Rift, des objets connectés …</li>
+        <li>Un incubateur d’entreprise</li>
+        <li>De la fibre 100 Méga</li>
+      </ul>
     <h4>Heures d'ouverture</h4>
     <p>Les locaux du campus sont ouverts du Lundi au Vendredi de 7h30 à 18h</p>
     <h3>Les écoles</h3>
