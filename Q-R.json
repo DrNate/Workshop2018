@@ -10,70 +10,52 @@
     }
   },
   "1": {
-    "text": "Question 1 ?",
+    "text": "Qu'est ce qu'une adresse IP? :",
     "type": "qcm",
     "ans": {
-      "0": "rep11",
-      "1": "rep12",
-      "2": "rep12",
-      "3": "rep13"
+      "0": "Une adresse qui permet d'identifier un hôte sur un réseau",
+      "1": "Une adresse spécial qui permet de repérer des informations personnelles",
+      "2": "Un nom technique pour une adresse postal ",
+      "3": "Une adresse qui sert de passerelle à l'Internet"
     }
   },
   "2": {
-    "text": "Question 2 ?",
+    "text": "UML est ?:",
     "type": "qcm",
     "ans": {
-      "0": "rep21",
-      "1": "rep22",
-      "2": "rep22",
-      "3": "rep23"
+      "0": "un langage de modélisation" ,
+      "1": "un standard de communication",
+      "2": "un type de port",
+      "3": "La partie « données » de la méthode MERISE"
     }
   },
   "3": {
-    "text": "Question 3 ?",
+    "text": "Un algorithme est? :",
     "type": "qcm",
     "ans": {
-      "0": "rep31",
-      "1": "rep32",
-      "2": "rep32",
-      "3": "rep33"
+      "0": "une suite d'actions à exécuter, de la première à la dernière",
+      "1": "un programme écrit en Python",
+      "2": "un programme écrit en BASIC"
     }
   },
   "4": {
-    "text": "Question 4 ?",
-    "type": "noqcm",
-    "ans": "reponse4"
-  },
-  "5": {
-    "text": "Question 5 ?",
-    "type": "noqcm",
-    "ans": "reponse5"
-  },
-  "6": {
-    "text": "Question 6 ?",
-    "type": "noqcm",
-    "ans": "reponse6"
-  },
-  "7": {
-    "text": "Question 7 ?",
+    "text": "Comment se nomme le language de balisage utiliser pour créer des pages Internet ?",
     "type": "qcm",
-    "ans": {
-      "0": "rep71",
-      "1": "rep72",
-      "2": "rep73",
-      "4": "rep74"
+    "ans":{
+    "0": "HTML",
+    "1": "Java",
+    "2": "Python",
+    "3": "Pascal"
     }
   },
-  "8": {
-    "text": "Question 8 ?",
+  "5": {
+    "text": "Pour accéder à un site Web, l'outil le plus approprié est? :",
     "type": "qcm",
-    "ans": {
-      "0": "rep81",
-      "1": "rep82",
-      "2": "rep83",
-      "4": "rep84",
-      "5": "rep84",
-      "6": "rep85"
+    "ans":{
+    "0": "l'Explorateur Windows",
+    "1":"un navigateur",
+    "2":"Word",
+    "3":"Paint"
     }
   }
 }
