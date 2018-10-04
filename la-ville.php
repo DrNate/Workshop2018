@@ -31,10 +31,15 @@ include 'navbar.html'
     <script>
         function initMap() {
             var sContent = 'Campus EPSI';
+<<<<<<< HEAD
+            var sContent2 = 
+            "<p style='float:left'>Tramway ligne <img src='Images/tramB.png' alt='tramB' height='30' width='30'></p>"+
+=======
             var sContent2 =
             "<p style='float:left'>Tramway ligne <img src='tramB.png' alt='tramB' height='30' width='30'></p>"+
+>>>>>>> 87e35c25211f74bf55e692a029d9b804c4de1ae9
             "<br />"+
-            "<p style='float:left'>Tramway ligne <img src='tramC.png' alt='tramC' height='30' width='30'></p>"+
+            "<p style='float:left'>Tramway ligne <img src='Images/tramC.png' alt='tramC' height='30' width='30'></p>"+
             "<br />"+
             "<br />"+
             "<br />"+
@@ -43,7 +48,7 @@ include 'navbar.html'
             "<br />"+
             "<a href='https://www.tag.fr/' style='block'>Toutes les informations TAG</a>"
             ;
-
+            
             var titre = "Oui";
             var titreTram = "Arrêt de tram Condillac Université";
 
