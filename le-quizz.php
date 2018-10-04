@@ -20,18 +20,26 @@
 include 'navbar.html'
 ?>
 
-<div id="container-form" class="text-center">
-    <div class="epsititlebg">
-        <h2 id="question"></h2>
+<div class="epsititlebg">
+    <h2 id="question"></h2>
+</div>
+<div class="row p-0 m-0 mt-3 mb-3">
+    <div class="col-sm-4 text-center">
+        Score :
+        <label id="score">
+        </label>
     </div>
-    <form id="frm">
-        <button id="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div class="col-sm-4 text-center">
+        <div class="row border" id="frm">
+        </div>
+    </div>
+    <div class="col-sm-4 text-center">
+        <!-- Display the countdown timer in an element -->
+        <p id="timer"></p>
+    </div>
+    <button id="submit" class="btn btn-primary mx-auto mt-3">Valider</button>
 </div>
 
-<?php
-include 'footer.html'
-?>
 <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -42,3 +50,6 @@ include 'footer.html'
         crossorigin="anonymous"></script>
 <script src="quizz.js"></script>
 
+<?php
+include 'footer.html'
+?>
