@@ -30,7 +30,11 @@ include 'navbar.html'
 
 <div id="container-form" class="container content ">
     <p>N'hésitez pas à nous envoyer vos questions en remplissant ce formulaire.</p>
+<<<<<<< HEAD
+<!--     <form>
+=======
     <form method="post" name="myemailform" action="form-to-email.php">
+>>>>>>> f1b4722bc576de6b205b144f619b2848955a065e
         <div class="form-group">
             <label for="inputnom">Nom</label>
             <input type="text" class="form-control" id="inputnom" placeholder="Nom" name="nom">
@@ -48,7 +52,10 @@ include 'navbar.html'
             <textarea class="form-control" id="inputtext" rows="3" placeholder="Message" name="message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </form> -->
+    <iframe width="1110px" height="1925px" src="http://www.my-admission.com/formulaire.aspx?marque=epsigrenoble&id=3038" frameborder="0"
+        style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
+        allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"></iframe>
 </div>
 <?php
 include 'footer.html'
