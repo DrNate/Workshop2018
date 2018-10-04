@@ -24,8 +24,8 @@ function createRadioElement(name, value, text, checked) {
     return radioFragment.firstChild;
 }
 function createTextElement() {
-    var textHtml = '<div><input type="text" name="resfield"';
-    textHtml += '/> </div>';
+    var textHtml = '<input class="form-control" type="text" name="resfield"';
+    textHtml += '/>';
 
     var textFragment = document.createElement('div');
     textFragment.innerHTML = textHtml;
@@ -41,7 +41,7 @@ function initQ() {
         if(pickedQ.type == "qcm") {
             var shuffled = shuffle(Object.keys(pickedQ.ans));
             for(var i = 0;i<shuffled.length;i++) {
-                if(i>0) {
+                if(i==0) {
                     $("#frm").append(createRadioElement("resfield", shuffled[i], pickedQ.ans[shuffled[i]], true));
                 } else {
                     $("#frm").append(createRadioElement("resfield", shuffled[i], pickedQ.ans[shuffled[i]], false));
@@ -77,9 +77,11 @@ function initTimer(){
 
         $("#timer").text(minutes + "m " + seconds + "s ");
 
-        // If the count down is finished, write some text
+        // If the count down is finished, write some text and do some things
         if (distance < 0) {
             clearInterval(x);
+            alert("time expired");
+            initQ();
             $("#timer").text("EXPIRED");
         }
     }, 500);

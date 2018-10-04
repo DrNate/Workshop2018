@@ -29,15 +29,15 @@ include 'navbar.html'
         <label id="score">
         </label>
     </div>
-    <div id="container-form" class="col-sm-4 text-center">
-        <div class="row p-0 m-0 mb-3 border" id="frm">
+    <div class="col-sm-4 text-center">
+        <div class="row border" id="frm">
         </div>
-        <button id="submit" class="btn btn-primary">Submit</button>
     </div>
     <div class="col-sm-4 text-center">
         <!-- Display the countdown timer in an element -->
         <p id="timer"></p>
     </div>
+    <button id="submit" class="btn btn-primary mx-auto mt-3">Valider</button>
 </div>
 
 <script
