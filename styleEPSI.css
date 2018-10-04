@@ -517,12 +517,6 @@ body {
     color: #1c0c37
 }
 
-@media screen and (max-width:550px) {
-    body {
-        padding-top: 114px
-    }
-}
-
 .inner {
     width: -webkit-calc(100% - 50px);
     width: calc(100% - 50px);

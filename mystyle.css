@@ -3,6 +3,7 @@
     padding-top: 2em;
     position: relative;
     background-color: #271549;
+    justify-content: space-between !important;
 }
 .navbar .navbar-nav > li > a:hover, .navbar-light .navbar-nav > li > a:focus {
     background-color: #756490;
@@ -20,7 +21,7 @@
 .navbar-brand {
     color: #FFF;
     font-size: 35px;
-    margin-left: 1.5em;
+    margin-left: 50px;
     margin-right: 2em;
 }
 
@@ -109,7 +110,33 @@ body{
     background-color: #EFEEF3;
 }
 
-.content{
+p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 18px;
+    color: #271549;
+}
+
+.content {
     background-color: #FFF;
+}
+
+@media (max-width: 1220px) {
+   #navbarNav {
+       display: none !important;
+   }
+}
+
+@media (min-width: 1220px) {
+    #hamburger {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1220px) {
+    #hamburger {
+        display: inline-block !important;
+        margin: 0;
+    }
 }
 
