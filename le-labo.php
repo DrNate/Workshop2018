@@ -22,7 +22,9 @@ include 'navbar.html'
 
 <div class="container content">
 <img src="images/labo.jpg" class="img-hautpage">
-      <p>Le labo, est un espace dédier au éléves qui vous permettera de trouver des outils vous permettent de réaliser vos projets</p>
+      <p>
+        Le laboratoire dit "labo" est une salle réservée aux étudiants pour la réalisations de projets. Du matériel est a vôtre disposition pour la réalisation de ces projets. Le but de cet espace est de développer vos compétences informatiques à travers des projets qui vous correspondent.
+      </p>
       <h4>La listes des outils que vous pourez y retrouver</h4>
       <ul>
         <li>Des raspberry Pi: Cet ordinateur, qui a la taille d'une carte de crédit, est destiné à encourager 
