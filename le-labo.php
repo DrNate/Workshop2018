@@ -20,10 +20,10 @@ include 'navbar.html'
     <h2>Le labo</h2>
 </div>
 
-<img src="images/labo.jpg" class="img-hautpage">
-<div class="container">
 
-      <p></p>
+<div class="container content">
+<img src="images/labo.jpg" class="img-hautpage">
+      <p>Le labo, est un espace dédier au éléves qui vous permetterra </p>
 </div>
 
 <?php

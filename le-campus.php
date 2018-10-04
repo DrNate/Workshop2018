@@ -24,9 +24,10 @@ include 'navbar.html'
     <h2>Le Campus de Grenoble</h2>
 </div>
 
-  <img class="img-hautpage" src="images/batiment.jpg" class="img-fluid" alt="Responsive image">
+  
 
   <div class="container content">
+    <img class="img-hautpage" src="images/batiment-2.jpg" class="img-fluid" alt="Responsive image">
 
     <h3>Les locaux</h3>
     <p>Le campus est composé de deux bâtiments. Ces bâtiments comportent

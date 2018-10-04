@@ -24,9 +24,9 @@ include 'navbar.html'
     <h2>La cafétéria</h2>
 </div>
 
-<img class="img-hautpage" src="images/cafeteria.jpg">
 
-<div class="container">
+<div class="container content">
+<img class="img-hautpage" src="images/cafeteria.jpg">
 
       <p>Ouvert toute la journée, cet espace vous permettra de communiquer avec les étudiants des
       autres écoles autour d'un café et d'un petit encas.<br>C'est ici aussi que vous pourrez faire des parties de Babyfoot
