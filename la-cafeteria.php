@@ -3,7 +3,7 @@
 
 <head>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" type="text/css" href="styleEPSI.css">
@@ -31,6 +31,16 @@ include 'navbar.html'
       <p>Ouvert toute la journée, cet espace vous permettra de communiquer avec les étudiants des
       autres écoles autour d'un café et d'un petit encas.<br>C'est ici aussi que vous pourrez faire des parties de Babyfoot
       ou manger votre casse-croûte du midi.</p>
+      <h4>Listes des éléments de cette salle:</h4>
+      <ul>
+          <li>Des micro ondes</li>
+          <li>Un distributeur de café</li>
+          <li>Un distributeur de soda</li>
+          <li>Un frigo</li>
+          <li>Une télé</li>
+          <li>Des tables</li>
+          <li>Un Babyfoot</li>
+      </ul>
 </div>
 <?php
 include 'footer.html'
@@ -43,7 +53,7 @@ include 'footer.html'
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 </body>
 

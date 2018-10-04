@@ -5,7 +5,7 @@
     <title>EPSI</title>
     <link rel="icon" type="image/png" href="images/logo.png" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styleEPSI.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -23,7 +23,16 @@ include 'navbar.html'
 
 <div class="container content">
 <img src="images/labo.jpg" class="img-hautpage">
-      <p>Le labo, est un espace dédier au éléves qui vous permetterra </p>
+      <p>Le labo, est un espace dédier au éléves qui vous permettera de trouver des outils vous permettent de réaliser vos projets</p>
+      <h4>La listes des outils que vous pourez y retrouver</h4>
+      <ul>
+        <li>Des raspberry Pi: Cet ordinateur, qui a la taille d'une carte de crédit, est destiné à encourager 
+            l'apprentissage de la programmation informatique. Il permet l'exécution de plusieurs variantes du 
+            système d'exploitation libre GNU/Linux-Debian et des logiciels compatibles.</li>
+        <li>Des switchs: </li>
+
+      </ul>
+
 </div>
 
 <?php
@@ -37,7 +46,7 @@ include 'footer.html'
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 </body>
 
