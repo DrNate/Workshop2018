@@ -99,21 +99,25 @@ $("#submit").click(function() {
     if(pickedQ.type == "qcm") {
         var val = $('input[name=resfield]:checked').val();
         if(val == 0) {
-            alert("won");
+            $("#info").text("Bonne réponse.");
+            $("#info").addClass("alert-success").removeClass("alert-danger");
             score++;
             $("#score").text(score);
         } else {
-            alert("lost");
+            $("#info").text("Mauvaise réponse, la bonne réponse était : " + pickedQ.ans[0]);
+            $("#info").addClass("alert-danger").removeClass("alert-sucess");
         }
         initQ();
     } else {
         var val = $('input[name=resfield]').val();
         if(val == pickedQ.ans) {
-            alert("won");
+            $("#info").text("Bonne réponse.");
+            $("#info").addClass("alert-success").removeClass("alert-danger");
             score++;
             $("#score").text(score);
         } else {
-            alert("lost");
+            $("#info").text("Mauvaise réponse, la bonne réponse était : " + pickedQ.ans);
+            $("#info").addClass("alert-danger").removeClass("alert-sucess");
         }
         initQ();
     }

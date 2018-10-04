@@ -32,6 +32,9 @@ include 'navbar.html'
     <div class="col-sm-6 text-center">
         <div class="row border" id="frm">
         </div>
+        <div id="info" class="mx-auto mt-3">
+
+        </div>
     </div>
     <div id="timer" class="col-sm-3 text-center">
     </div>
