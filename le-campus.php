@@ -31,14 +31,14 @@ include 'navbar.html'
     <h3>Les locaux</h3>
     <p>Le campus est composé de deux bâtiments. Ces bâtiments comportent
       <ul>
-        <li>Des salles informatiques</li>
+        <li>Des salles informatique</li>
         <li>De salles de TP réseaux</li>
         <li>Des salles de cours</li>
         <li>Une salle de conférence</li>
         <li>Un système de visioconférence</li>
         <li>Un espace restauration avec terrasse</li>
         <li>Une caféteria</li>
-        <li>Des locaux associatifs (Labo expérimentale, BDE…)</li>
+        <li>Des locaux associatifs (Labo expérimental, BDE…)</li>
         <li>Un Oculus Rift, des objets connectés …</li>
         <li>Un incubateur d’entreprise</li>
         <li>De la fibre 100 Méga</li>

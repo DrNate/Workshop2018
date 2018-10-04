@@ -20,21 +20,27 @@ include 'navbar.html'
 ?>
 
 <div class="epsititlebg">
-    <h2 id="question"></h2>
+    <h2 id="question">Quizz</h2>
 </div>
-<div class="row p-0 m-0 mt-3 mb-3">
+<div class="text-center" id="beforestart">
+    <p class="mt-3 text-center">Petit quizz pour déterminer votre niveau afin de candidater pour l'EPSI.</p>
+    <button id="start" class="btn btn-primary">Commencer</button>
+</div>
+<div id="afterstart" class="row p-0 m-0 mt-3 mb-3">
     <div class="col-sm-3 text-center">
-        Score :
         <label id="score">
         </label>
     </div>
     <div class="col-sm-6 text-center">
         <div class="row border" id="frm">
         </div>
+        <div id="info" class="mx-auto mt-3">
+
+        </div>
     </div>
     <div id="timer" class="col-sm-3 text-center">
     </div>
-    <button id="submit" class="btn btn-primary mx-auto mt-3">Valider</button>
+
 </div>
 
 <script

@@ -13,7 +13,7 @@ function shuffle(a) {
 }
 function createRadioElement(name, value, text, checked) {
     var radioHtml = '<div class="radio custom-control custom-radio col-sm-6 mb-2 mt-2"><input id="' + value + '" class="custom-control-input" type="radio" value="' + value + '" name="' + name + '"';
-    if ( checked == true ) {
+    if (checked == true) {
         radioHtml += ' checked="checked"';
     }
     radioHtml += '/><label class="custom-control-label" for="' + value + '">' + text + "</label></div>";
@@ -33,34 +33,61 @@ function createTextElement() {
     return textFragment.firstChild;
 }
 
+Array.prototype.clean = function (deleteValue) {
+    for (var i = 0; i < this.length; i++) {
+        if (this[i] == deleteValue) {
+            this.splice(i, 1);
+            i--;
+        }
+    }
+    return this;
+};
+
 function initQ() {
-    $.getJSON('Q-R.json', function(data) {
+    $("#score").text("Score : " + score);
+    $.getJSON('Q-R.json', function (data) {
+        if (typeof questionsLeft == 'undefined') {
+            questionsLeft = $.map(data, function (el) {
+                return el
+            });
+        }
         $("#frm").empty();
-        pickedQ = data[getRandomInt(Object.keys(data).length)];
+        var randomIndex = getRandomInt(questionsLeft.length);
+        pickedQ = questionsLeft[randomIndex];
         $("#question").text(pickedQ["text"]);
-        if(pickedQ.type == "qcm") {
+        if (pickedQ.type == "qcm") {
             var shuffled = shuffle(Object.keys(pickedQ.ans));
-            for(var i = 0;i<shuffled.length;i++) {
-                if(i==0) {
+            for (var i = 0; i < shuffled.length; i++) {
+                if (i == 0) {
                     $("#frm").append(createRadioElement("resfield", shuffled[i], pickedQ.ans[shuffled[i]], true));
                 } else {
                     $("#frm").append(createRadioElement("resfield", shuffled[i], pickedQ.ans[shuffled[i]], false));
                 }
             }
         } else {
-            $("#frm").prepend(createTextElement());
+            $("#frm").append(createTextElement());
         }
         clearInterval(timerI);
         timerI = initTimer();
+        delete questionsLeft[randomIndex];
+        questionsLeft.clean(undefined);
     });
 }
 
-function initTimer(){
+function getGoodAns(q) {
+    if (q.type == "qcm") {
+        return q.ans[0];
+    } else {
+        return q.ans;
+    }
+}
+
+function initTimer() {
     // Set the date we're counting down to
-    var countDownDate = new Date().getTime()+30000;
+    var countDownDate = new Date().getTime() + 30000; //30s
 
 // Update the count down every 1 second
-    var x = setInterval(function() {
+    var x = setInterval(function () {
 
         // Get todays date and time
         var now = new Date().getTime();
@@ -70,54 +97,87 @@ function initTimer(){
 
         // Time calculations for days, hours, minutes and seconds
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        if (seconds < 10) { seconds = '0' + seconds }
+        if (seconds < 10) {
+            seconds = '0' + seconds
+        }
 
         $("#timer").text(seconds + "s ");
 
         // If the count down is finished, write some text and do some things
         if (distance < 0) {
-            clearInterval(x);
-            alert("time expired");
-            initQ();
-            $("#timer").text("EXPIRED");
+            stopTimer(x);
+            $("#info").text("Temps écoulé; la bonne réponse était :" + getGoodAns(pickedQ));
+            $("#info").addClass("alert-danger").removeClass("alert-sucess");
+            checkEnd();
         }
     }, 500);
 
     return x;
 }
 
+function stopTimer(x) {
+    clearInterval(x);
+    $("#timer").text("");
+}
+
+function isGoodAns(ans) {
+    if(pickedQ.type == "qcm") {
+        return ans == 0;
+    } else {
+        return ans == getGoodAns(pickedQ);
+    }
+}
+
+function checkEnd() {
+    if (questionsLeft.length > 0) {
+        console.log(questionsLeft);
+        initQ();
+    } else {
+        stopTimer(timerI);
+        $("#question").text("Résultats");
+        $("#submit").addClass("disabled");
+        $("#frm").empty();
+        $("#info").empty();
+        if (score >= 3) {
+            $("#info").append('<p class="text-center">Vous avez répondu juste à la plupart des questions, vous êtes prêt à rejoindre l\'EPSI !</p>');
+            $("#info").addClass("alert-success").removeClass("alert-danger");
+        } else {
+            $("#info").append('<p class="text-center">Vous n\'avez pas réussi à répondre juste à la plupart des questions, mais pas de soucis on peut vous apprendre !</p>');
+            $("#info").addClass("alert-danger").removeClass("alert-sucess");
+        }
+        $("#info").append('<p class="text-center"><a href="http://www.epsi.fr/admissions/integrer-lepsi/">Rejoignez nous ici !</a></p>')
+    }
+}
+
 var timerI;
+var questionsLeft;
 var pickedQ;
 var score;
 if (typeof score == 'undefined') {
     score = 0;
 }
 
-$("#score").text(score);
-
-$("#submit").click(function() {
-    if(pickedQ.type == "qcm") {
-        var val = $('input[name=resfield]:checked').val();
-        if(val == 0) {
-            alert("won");
-            score++;
-            $("#score").text(score);
-        } else {
-            alert("lost");
+$("#start").click(function () {
+    $("#beforestart").empty();
+    $("#afterstart").append('<button id="submit" class="btn btn-primary mx-auto mt-3">Valider</button>');
+    $("#submit").click(function () {
+        var val;
+        if (pickedQ.type == "qcm") {
+            val = $('input[name=resfield]:checked').val();
         }
-        initQ();
-    } else {
-        var val = $('input[name=resfield]').val();
-        if(val == pickedQ.ans) {
-            alert("won");
-            score++;
-            $("#score").text(score);
-        } else {
-            alert("lost");
+        else {
+            val = $('input[name=resfield]').val();
         }
-        initQ();
-    }
+        if (isGoodAns(val)) {
+            $("#info").text("Bonne réponse.");
+            $("#info").addClass("alert-success").removeClass("alert-danger");
+            score++;
+        } else {
+            $("#info").text("Mauvaise réponse, la bonne réponse était : " + getGoodAns(pickedQ));
+            $("#info").addClass("alert-danger").removeClass("alert-sucess");
+        }
+        checkEnd();
+    });
+    initQ();
 });
-
-initQ();
 

@@ -1,12 +1,12 @@
 {
   "0": {
-    "text": "Qu'est ce qu'un routeur? :",
+    "text": "Qu'est ce qu'un routeur? : Un équipement qui",
     "type": "qcm",
     "ans": {
-      "0": "Un équipement qui permet de se connecter à un réseau comme Internet",
-      "1": "Un équipement qui permet de superviser le réseau",
-      "2": "Un équipement qui permet de faire du café",
-      "3": "Un équipement qui permet de créer des autoroutes "
+      "0": "Permet de se connecter à un réseau comme Internet",
+      "1": "Permet de superviser le réseau",
+      "2": "Permet de faire du café",
+      "3": "Permet de créer des autoroutes "
     }
   },
   "1": {
@@ -14,8 +14,8 @@
     "type": "qcm",
     "ans": {
       "0": "Une adresse qui permet d'identifier un hôte sur un réseau",
-      "1": "Une adresse spécial qui permet de repérer des informations personnelles",
-      "2": "Un nom technique pour une adresse postal ",
+      "1": "Une adresse spéciale qui permet de repérer des informations personnelles",
+      "2": "Un nom technique pour une adresse postale",
       "3": "Une adresse qui sert de passerelle à l'Internet"
     }
   },
@@ -23,9 +23,9 @@
     "text": "UML est ?:",
     "type": "qcm",
     "ans": {
-      "0": "un langage de modélisation" ,
-      "1": "un standard de communication",
-      "2": "un type de port",
+      "0": "Un langage de modélisation",
+      "1": "Un standard de communication",
+      "2": "Un type de port",
       "3": "La partie « données » de la méthode MERISE"
     }
   },
@@ -33,29 +33,29 @@
     "text": "Un algorithme est? :",
     "type": "qcm",
     "ans": {
-      "0": "une suite d'actions à exécuter, de la première à la dernière",
-      "1": "un programme écrit en Python",
-      "2": "un programme écrit en BASIC"
+      "0": "Une suite d'actions à exécuter, de la première à la dernière",
+      "1": "Un programme écrit en Python",
+      "2": "Un programme écrit en BASIC"
     }
   },
   "4": {
-    "text": "Comment se nomme le language de balisage utiliser pour créer des pages Internet ?",
+    "text": "Comment se nomme le language de balisage utilisé pour créer des pages Internet ?",
     "type": "qcm",
-    "ans":{
-    "0": "HTML",
-    "1": "Java",
-    "2": "Python",
-    "3": "Pascal"
+    "ans": {
+      "0": "HTML",
+      "1": "Java",
+      "2": "Python",
+      "3": "Pascal"
     }
   },
   "5": {
     "text": "Pour accéder à un site Web, l'outil le plus approprié est? :",
     "type": "qcm",
-    "ans":{
-    "0": "l'Explorateur Windows",
-    "1":"un navigateur",
-    "2":"Word",
-    "3":"Paint"
+    "ans": {
+      "0": "Un navigateur",
+      "1": "L'Explorateur Windows",
+      "2": "Word",
+      "3": "Paint"
     }
   }
 }
