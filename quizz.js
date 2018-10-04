@@ -142,10 +142,10 @@ function checkEnd() {
             $("#info").append('<p class="text-center">Vous avez répondu juste à la plupart des questions, vous êtes prêt à rejoindre l\'EPSI !</p>');
             $("#info").addClass("alert-success").removeClass("alert-danger");
         } else {
-            $("#info").append('<p class="text-center">Vous n\'avez pas réussi à répondre juste à la plupart des questions, mais pas de soucis on va vous apprendre !</p>');
+            $("#info").append('<p class="text-center">Vous n\'avez pas réussi à répondre juste à la plupart des questions, mais pas de soucis on peut vous apprendre !</p>');
             $("#info").addClass("alert-danger").removeClass("alert-sucess");
         }
-        $("#info").append('<p class="text-center"><a href="http://www.epsi.fr/admissions/integrer-lepsi/">Rejoingnez nous ici !</a></p>')
+        $("#info").append('<p class="text-center"><a href="http://www.epsi.fr/admissions/integrer-lepsi/">Rejoignez nous ici !</a></p>')
     }
 }
 
