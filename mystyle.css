@@ -1,7 +1,7 @@
 .navbar{
     padding-bottom: 2em;
     padding-top: 2em;
-    position: relative;
+    position: fixed;
     background-color: #271549;
     justify-content: space-between !important;
 }
@@ -105,6 +105,7 @@
     color: white;
     padding: 27px 12px 25px;
     text-align: center;
+    margin-top: 130px;
 }
 
 body{
