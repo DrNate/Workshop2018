@@ -27,7 +27,11 @@ include 'navbar.html'
 
 
 <div class="container content">
-
+<h3>L’école d’ingénierie informatique</h3>
+<p>L’informatique accélère le temps, modifie notre perception de l’espace, révolutionne nos modes de communication, contribue à notre évolution sociétale ; ce sont les professionnels de l’informatique qui anticipent et accompagnent ces mutations.
+Première école d’informatique en France avoir été créée par des professionnels, première à avoir obtenu le titre niveau I RNCP (Bac+5 certifié par l’État) et résolument engagée auprès des entreprises, l’EPSI accompagne le développement des compétences informatiques depuis plus de 55 ans.
+Elle le fait en partageant avec ses étudiants et diplômés des valeurs et attitudes fortes : s’épanouir, être ouvert sur le monde, être responsable et solidaire, être en prise avec la réalité des entreprises, oser, innover, entreprendre.
+l’EPSI est à l’initiative de la création de l’école du web WIS Web International School et de l’école 100% open source OSS – Open Source School</p>
 </div>
 
 <?php

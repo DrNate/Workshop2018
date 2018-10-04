@@ -73,6 +73,7 @@
 }
 
 .img-hautpage{
+    margin-top: 10px !important;
     display: block !important;
     width: 50% !important;
     max-height: 100% !important;
@@ -119,6 +120,7 @@ p {
 
 .content {
     background-color: #FFF;
+<<<<<<< HEAD
 }
 
 @media (max-width: 1220px) {
@@ -140,3 +142,6 @@ p {
     }
 }
 
+=======
+}
+>>>>>>> e8a4be8abdb7ce3fc823c141a7571437b848e98e
