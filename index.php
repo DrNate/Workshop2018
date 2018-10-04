@@ -3,8 +3,7 @@
 
 <head>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="images/logo.png" />
     <link rel="stylesheet" type="text/css" href="styleEPSI.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -27,12 +26,22 @@ include 'navbar.html'
 
 
 <div class="container content">
-<h3>L’école d’ingénierie informatique</h3>
-<p>L’informatique accélère le temps, modifie notre perception de l’espace, révolutionne nos modes de communication, contribue à notre évolution sociétale ; ce sont les professionnels de l’informatique qui anticipent et accompagnent ces mutations.
-Première école d’informatique en France avoir été créée par des professionnels, première à avoir obtenu le titre niveau I RNCP (Bac+5 certifié par l’État) et résolument engagée auprès des entreprises, l’EPSI accompagne le développement des compétences informatiques depuis plus de 55 ans.
-Elle le fait en partageant avec ses étudiants et diplômés des valeurs et attitudes fortes : s’épanouir, être ouvert sur le monde, être responsable et solidaire, être en prise avec la réalité des entreprises, oser, innover, entreprendre.
-l’EPSI est à l’initiative de la création de l’école du web WIS Web International School et de l’école 100% open source OSS – Open Source School</p>
-</div>
+<img class="img-hautpage" src="images/photo-index.jpg">
+<h3>Une Formation informatique, un cursus complet pour toutes les ambitions</h3>
+<p>L’EPSI est une école d’informatique qui propose des programmes de Bac à Bac+5 et de la formation continue.
+Quel que soit votre profil ou votre situation, vous pouvez accéder à la formation informatique et à un des programmes EPSI en admission directe ou en admission parallèle.
+La formation informatique de l’EPSI se compose de deux cycles :</p>
+<ul>
+<li>1er  CYCLE : Le  programme Bachelor informatique, prépare les apprenants à un titre de niveau II (Bac +3/4) certifié par le RNCP .
+    Les élèves peuvent également présenter le BTS SIO (Services Informatiques aux Organisations) afin de sécuriser leur parcours.
+</li>
+<li> 2nd CYCLE : Le programme Ingénierie  informatique  prépare les apprenants à un titre de niveau I (Bac+5) « Expert en informatique et système d’information » certifié par le RNCP.
+</li>
+</ul>
+<p>À partir de la 3ème année, les apprenants peuvent suivre leur formation informatique en initial ou par alternance.</p>
+</p>
+
+   </div>
 
 <?php
 include 'footer.html'
@@ -44,8 +53,7 @@ include 'footer.html'
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
