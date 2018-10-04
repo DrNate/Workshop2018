@@ -29,22 +29,22 @@ include 'navbar.html'
 
 <div id="container-form" class="container content ">
     <p>N'hésitez pas à nous envoyer vos questions en remplissant ce formulaire.</p>
-    <form>
+    <form method="post" name="myemailform" action="form-to-email.php">
         <div class="form-group">
             <label for="inputnom">Nom</label>
-            <input type="text" class="form-control" id="inputnom" placeholder="Nom">
+            <input type="text" class="form-control" id="inputnom" placeholder="Nom" name="nom">
         </div>
         <div class="form-group">
             <label for="inputprenom">Prenom</label>
-            <input type="text" class="form-control" id="inputprenom" placeholder="Prenom">
+            <input type="text" class="form-control" id="inputprenom" placeholder="Prenom" name="prenom">
         </div>
         <div class="form-group">
             <label for="inputemail">Email address</label>
-            <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Address email">
+            <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Address email" name="email">
         </div>
         <div class="form-group">
             <label for="inputtext">Message</label>
-            <textarea class="form-control" id="inputtext" rows="3" placeholder="Message"></textarea>
+            <textarea class="form-control" id="inputtext" rows="3" placeholder="Message" name="message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -52,6 +52,9 @@ include 'navbar.html'
 <?php
 include 'footer.html'
 ?>
+
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
