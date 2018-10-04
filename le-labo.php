@@ -31,12 +31,11 @@ include 'navbar.html'
             l'apprentissage de la programmation informatique. Il permet l'exécution de plusieurs variantes du 
             système d'exploitation libre GNU/Linux-Debian et des logiciels compatibles.</li>
         <li>Des équipements réseaux: routeurs,switchs,bornes wifi </li>
-        <li>Une xbox One: Cet console vous permettra de tester des jeux que vous avez déveloper pour cette plateforme</li>
-        <li>Des arduinos: Ce microcontrôleur peut être programmé pour analyser et produire des signaux électriques, de manière à effectuer des tâches très diverses comme la domotique (le contrôle des appareils domestiques - éclairage, chauffage…), le pilotage d'un robot, de l'informatique embarquée, etc.</li>
-        <li>Un casque de réaliter virtuel</li>
+        <li>Une xbox One: Cette console vous permettra de tester des jeux que vous avez développé pour cette plateforme</li>
+        <li>Des arduinos: Ce microcontrôleur peut être programmé pour analyser et produire des signaux électriques, de manière à effectuer des tâches très diverses comme la domotique (le contrôle des appareils domestiques - éclairage, chauffage…), le pilotage d'un robot, de l'informatique embarquée, etc...</li>
+        <li>Un casque de realité virtuelle</li>
         <li>Un Mac mini</li>
         <li>Des serveurs</li>
-        <li>etc..</li>
       </ul>
 
 </div>
