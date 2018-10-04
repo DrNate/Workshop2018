@@ -24,18 +24,16 @@ include 'navbar.html'
     <h2 id="question"></h2>
 </div>
 <div class="row p-0 m-0 mt-3 mb-3">
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
         Score :
         <label id="score">
         </label>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-6 text-center">
         <div class="row border" id="frm">
         </div>
     </div>
-    <div class="col-sm-4 text-center">
-        <!-- Display the countdown timer in an element -->
-        <p id="timer"></p>
+    <div id="timer" class="col-sm-3 text-center">
     </div>
     <button id="submit" class="btn btn-primary mx-auto mt-3">Valider</button>
 </div>

@@ -32,9 +32,9 @@ include 'navbar.html'
         function initMap() {
             var sContent = 'Campus EPSI';
             var sContent2 = 
-            "<p style='float:left'>Tramway ligne <img src='images/tramB.png' alt='tramB' height='30' width='30'></p>"+
+            "<p style='float:left'>Tramway ligne <img src='Images/tramB.png' alt='tramB' height='30' width='30'></p>"+
             "<br />"+
-            "<p style='float:left'>Tramway ligne <img src='images/tramC.png' alt='tramC' height='30' width='30'></p>"+
+            "<p style='float:left'>Tramway ligne <img src='Images/tramC.png' alt='tramC' height='30' width='30'></p>"+
             "<br />"+
             "<br />"+
             "<br />"+

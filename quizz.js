@@ -12,7 +12,7 @@ function shuffle(a) {
     return a;
 }
 function createRadioElement(name, value, text, checked) {
-    var radioHtml = '<div class="radio custom-control custom-radio col-sm-6"><input id="' + value + '" class="custom-control-input" type="radio" value="' + value + '" name="' + name + '"';
+    var radioHtml = '<div class="radio custom-control custom-radio col-sm-6 mb-2 mt-2"><input id="' + value + '" class="custom-control-input" type="radio" value="' + value + '" name="' + name + '"';
     if ( checked == true ) {
         radioHtml += ' checked="checked"';
     }
@@ -24,7 +24,7 @@ function createRadioElement(name, value, text, checked) {
     return radioFragment.firstChild;
 }
 function createTextElement() {
-    var textHtml = '<input class="form-control" type="text" name="resfield"';
+    var textHtml = '<input class="form-control ml-2 mr-2" type="text" name="resfield"';
     textHtml += '/>';
 
     var textFragment = document.createElement('div');
@@ -57,7 +57,7 @@ function initQ() {
 
 function initTimer(){
     // Set the date we're counting down to
-    var countDownDate = new Date().getTime()+120000;
+    var countDownDate = new Date().getTime()+30000;
 
 // Update the count down every 1 second
     var x = setInterval(function() {
@@ -69,13 +69,10 @@ function initTimer(){
         var distance = countDownDate - now;
 
         // Time calculations for days, hours, minutes and seconds
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        if (minutes < 10) { minutes = '0' + minutes }
         if (seconds < 10) { seconds = '0' + seconds }
 
-        $("#timer").text(minutes + "m " + seconds + "s ");
+        $("#timer").text(seconds + "s ");
 
         // If the count down is finished, write some text and do some things
         if (distance < 0) {
