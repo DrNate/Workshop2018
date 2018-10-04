@@ -12,11 +12,11 @@ function shuffle(a) {
     return a;
 }
 function createRadioElement(name, value, text, checked) {
-    var radioHtml = '<div class="radio"><input type="radio" value="' + value + '" name="' + name + '"';
+    var radioHtml = '<div class="radio custom-control custom-radio col-sm-6"><input id="' + value + '" class="custom-control-input" type="radio" value="' + value + '" name="' + name + '"';
     if ( checked == true ) {
         radioHtml += ' checked="checked"';
     }
-    radioHtml += '/>' + text + "</div>";
+    radioHtml += '/><label class="custom-control-label" for="' + value + '">' + text + "</label></div>";
 
     var radioFragment = document.createElement('div');
     radioFragment.innerHTML = radioHtml;

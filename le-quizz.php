@@ -23,20 +23,20 @@ include 'navbar.html'
 <div class="epsititlebg">
     <h2 id="question"></h2>
 </div>
-<div class="row nopadding">
-    <div class="col-sm-3 text-right">
+<div class="row p-0 m-0 mt-3 mb-3">
+    <div class="col-sm-4 text-center">
         Score :
         <label id="score">
         </label>
     </div>
-    <div id="container-form" class="col-sm-6 text-center">
-        <div id="frm">
+    <div id="container-form" class="col-sm-4 text-center">
+        <div class="row p-0 m-0 mb-3 border" id="frm">
         </div>
         <button id="submit" class="btn btn-primary">Submit</button>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4 text-center">
         <!-- Display the countdown timer in an element -->
-        <p class="text-left" id="timer"></p>
+        <p id="timer"></p>
     </div>
 </div>
 
