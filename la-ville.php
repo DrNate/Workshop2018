@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/png" href="images/logo.png" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="styleEPSI.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <title>La ville</title>
@@ -15,7 +16,7 @@
 </head>
 <body>
 <?php
-include ('navbar.html')
+include 'navbar.html'
 ?>
 <div class="container content">
     <style>
@@ -30,8 +31,13 @@ include ('navbar.html')
     <script>
         function initMap() {
             var sContent = 'Campus EPSI';
+<<<<<<< HEAD
             var sContent2 = 
             "<p style='float:left'>Tramway ligne <img src='Images/tramB.png' alt='tramB' height='30' width='30'></p>"+
+=======
+            var sContent2 =
+            "<p style='float:left'>Tramway ligne <img src='tramB.png' alt='tramB' height='30' width='30'></p>"+
+>>>>>>> 87e35c25211f74bf55e692a029d9b804c4de1ae9
             "<br />"+
             "<p style='float:left'>Tramway ligne <img src='Images/tramC.png' alt='tramC' height='30' width='30'></p>"+
             "<br />"+
@@ -51,7 +57,7 @@ include ('navbar.html')
             var centrerPoint = {lat: 45.188209, lng: 5.776405};
             var map = new google.maps.Map(
                 document.getElementById('map'), {
-                    zoom: 15.5, 
+                    zoom: 15.5,
                     center: centrerPoint
                 });
 
@@ -59,16 +65,16 @@ include ('navbar.html')
             infowindow2 = new google.maps.InfoWindow({ content: sContent2 });
 
             var marker = new google.maps.Marker({
-                position: campus, 
-                map: map, 
-                title: titre, 
+                position: campus,
+                map: map,
+                title: titre,
                 info: sContent
             });
 
             var markerTram = new google.maps.Marker({
-                position: tram, 
+                position: tram,
                 map: map,
-                title: titre, 
+                title: titre,
                 info: sContent2
             });
 
@@ -96,14 +102,18 @@ include ('navbar.html')
 <iframe width="100%" height="480px" src="https://poly.google.com/view/bUXWGnfJuXq/embed?chrome=min" frameborder="0"
         style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" scrolling="no"></iframe>
-    
+
 </div>
 
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<?php
+include 'footer.html'
+?>
 </body>
 </html>
