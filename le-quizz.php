@@ -19,13 +19,24 @@
 include ('navbar.html')
 ?>
 
-<div id="container-form" class="text-center">
-    <div class="epsititlebg">
-        <h2 id="question"></h2>
+<div class="epsititlebg">
+    <h2 id="question"></h2>
+</div>
+<div class="row nopadding">
+    <div class="col-sm-3 text-right">
+        Score :
+        <label id="score">
+        </label>
     </div>
-    <form id="frm">
+    <div id="container-form" class="col-sm-6 text-center">
+        <div id="frm">
+        </div>
         <button id="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
+    <div class="col-sm-3">
+        <!-- Display the countdown timer in an element -->
+        <p class="text-left" id="timer"></p>
+    </div>
 </div>
 
 <script
