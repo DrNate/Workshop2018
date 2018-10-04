@@ -120,12 +120,8 @@ p {
 
 .content {
     background-color: #FFF;
-<<<<<<< HEAD
-=======
-
     padding-top: 10px !important;
     padding-bottom: 10px !important;
->>>>>>> f83783272c1e5c731067f98f6658c8d816e0f30d
 }
 
 @media (max-width: 1220px) {
@@ -145,9 +141,5 @@ p {
         display: inline-block !important;
         margin: 0;
     }
-<<<<<<< HEAD
 }
 
-=======
-}
->>>>>>> f83783272c1e5c731067f98f6658c8d816e0f30d
