@@ -50,7 +50,6 @@ include 'navbar.html'
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
-<br>
 <?php
 include 'footer.html'
 ?>

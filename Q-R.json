@@ -1,12 +1,12 @@
 {
   "0": {
-    "text": "Qu'est ce qu'un routeur:",
+    "text": "Qu'est ce qu'un routeur? :",
     "type": "qcm",
     "ans": {
       "0": "Un équipement qui permet de se connecter à un réseau comme Internet",
-      "1": "rep02",
-      "2": "rep02",
-      "3": "rep03"
+      "1": "Un équipement qui permet de superviser le réseau",
+      "2": "Un équipement qui permet de faire du café",
+      "3": "Un équipement qui permet de créer des autoroutes "
     }
   },
   "1": {
