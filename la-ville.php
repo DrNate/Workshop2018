@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="styleEPSI.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 
-    <title>La ville</title>
+    <title>EPSI | La ville</title>
 
 </head>
 <body>

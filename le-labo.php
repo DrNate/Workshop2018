@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EPSI</title>
+    <title>EPSI | Le labo</title>
     <link rel="icon" type="image/png" href="images/logo.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

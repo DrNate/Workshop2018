@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css"  href="mystyle.css">
 
 
-    <title>HEP Campus Grenoble</title>
+    <title>EPSI | Contact</title>
 </head>
 
 <body>
