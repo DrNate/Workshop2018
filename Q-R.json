@@ -1,6 +1,6 @@
 {
   "0": {
-    "text": "Qu'est ce qu'un routeur? : Un équipement qui",
+    "text": "Un routeur est équipement qui :",
     "type": "qcm",
     "ans": {
       "0": "Permet de se connecter à un réseau comme Internet",
@@ -10,7 +10,7 @@
     }
   },
   "1": {
-    "text": "Qu'est ce qu'une adresse IP? :",
+    "text": "Qu'est ce qu'une adresse IP ?",
     "type": "qcm",
     "ans": {
       "0": "Une adresse qui permet d'identifier un hôte sur un réseau",
@@ -20,7 +20,7 @@
     }
   },
   "2": {
-    "text": "UML est ?:",
+    "text": "UML est :",
     "type": "qcm",
     "ans": {
       "0": "Un langage de modélisation",
@@ -30,7 +30,7 @@
     }
   },
   "3": {
-    "text": "Un algorithme est? :",
+    "text": "Un algorithme est :",
     "type": "qcm",
     "ans": {
       "0": "Une suite d'actions à exécuter, de la première à la dernière",
@@ -49,7 +49,7 @@
     }
   },
   "5": {
-    "text": "Pour accéder à un site Web, l'outil le plus approprié est? :",
+    "text": "L'outil le plus approprié pour accéder à un site Web est : ",
     "type": "qcm",
     "ans": {
       "0": "Un navigateur",
